@@ -1,5 +1,4 @@
-FROM alpine:latest
-RUN apk add --no-cache nodejs npm
+FROM node:12.16
 
 
 WORKDIR /app
